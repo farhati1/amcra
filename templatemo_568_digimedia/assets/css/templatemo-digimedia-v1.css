@@ -166,7 +166,7 @@ html,
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #ffecce;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -209,17 +209,17 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #ffecce;
   font-family: "Poppins", sans-serif;
 }
 
 ::selection {
-  background: #fa65b1;
+  background: #ffecce;
   color: #fff !important;
 }
 
 ::-moz-selection {
-  background: #fa65b1;
+  background: #ffecce;
   color: #fff !important;
 }
 
@@ -441,9 +441,14 @@ header
   margin-left: 5px;
 }
 
+.ima {
+  width: 300px;
+  margin-left: 150px;
+}
+
 .pre-header ul.social-media li a {
   background-color: #afafaf;
-  color: #fff;
+  color: #ffecce;
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -1927,7 +1932,7 @@ contact
 }
 
 form#contact:before {
-  background-image: url(../images/contact-top-right.png);
+ 
   position: absolute;
   right: 0;
   top: 0;
